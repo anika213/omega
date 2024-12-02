@@ -1,0 +1,40 @@
+.topic-card {
+  background: rgba(0, 0, 0, 0.5); /* Transparent black */
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px;
+  width:350px;
+  height:250px;
+  color: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 0 15px #fff, 0 0 30px #fff; /* Initial glow */
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.topic-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #fff, 0 0 40px #fff; /* Stronger glow on hover */
+}
+
+.topic-name {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.topic-description {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+body {
+  background-color: black; /* Set the entire page background to black */
+}
+
+.topic-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}

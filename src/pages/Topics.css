@@ -1,0 +1,25 @@
+.App {
+    background-color: black; /* Black background for the entire app */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    color: white;
+    margin: 20px 0;
+    text-align: center;
+    text-shadow: 0 0 10px white; /* Glow effect */
+  }
+  
+  .topic-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  

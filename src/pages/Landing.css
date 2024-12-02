@@ -49,6 +49,26 @@
   cursor: pointer;
   border-radius: 5px;
 }
+.sub{
+  font-size: 1.2em;
+  font-weight: semi-bold;
+  color:beige;
+}
+
+
+.links {
+  font-size: 0.4em; /* Adjust font size as needed */
+  word-wrap: break-word; /* Allow long links to wrap onto the next line */
+  line-height: 1.5; /* Add spacing between lines for better readability */
+  color: white; /* Ensure the text is readable on a dark background */
+  list-style-type: none; /* Removes bullets */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+}
+
+.links li {
+  margin-bottom: 5px; /* Adds space between links */
+}
 
 @keyframes App-logo-spin {
   from {

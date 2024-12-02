@@ -1,0 +1,93 @@
+/* Apply border-box globally */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.topic-name{
+  font-size: 2em;
+  font-weight: bold;
+  color:rgb(229, 233, 210);
+}
+
+/* Container styling */
+.topic-details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  padding: 20px;
+  overflow: auto; /* Allow scrolling if content exceeds container */
+}
+
+/* Card styling */
+.topic-details-card {
+  background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black for contrast */
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 1000px;
+  width: 100%;
+  max-height: calc(100vh - 40px); /* Adjust height dynamically for viewport */
+  height: auto; /* Let content dictate height */
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.1); /* Subtle border for the card */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* Subtle glow */
+  text-align: center;
+  overflow: auto; /* Prevent content overflow */
+}
+
+/* Tip styling with border */
+.topic-tip {
+  border: 2px solid white; /* Add a white border */
+  padding: 15px;
+  border-radius: 10px; /* Rounded corners */
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly translucent background */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Glow effect for the border */
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 10px;
+  overflow-wrap: break-word; /* Prevent long text from overflowing */
+}
+
+/* Other section styling */
+.topic-section {
+  margin-bottom: 20px;
+}
+
+.topic-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.topic-section img.formula-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px; /* Prevent large images */
+  margin-top: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Back button styling */
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
