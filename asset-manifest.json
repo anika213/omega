@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/omega/static/css/main.b53f5995.css",
+    "main.js": "/omega/static/js/main.36ebd7cc.js",
+    "static/js/453.e4226405.chunk.js": "/omega/static/js/453.e4226405.chunk.js",
+    "static/media/cmu-serif-500-roman.ttf": "/omega/static/media/cmu-serif-500-roman.bf7ccd25523b20a288b9.ttf",
+    "static/media/cmu-serif-700-roman.ttf": "/omega/static/media/cmu-serif-700-roman.45b78465c34fdb77cbdc.ttf",
+    "static/media/cmu-serif-500-italic.ttf": "/omega/static/media/cmu-serif-500-italic.49618ae7cdca569ab200.ttf",
+    "static/media/cmu-serif-700-italic.ttf": "/omega/static/media/cmu-serif-700-italic.4f17c6e7a6273c334581.ttf",
+    "static/media/cmu-serif-500-roman.woff2": "/omega/static/media/cmu-serif-500-roman.87d0cf42c867c8f09b9a.woff2",
+    "static/media/cmu-serif-700-roman.woff2": "/omega/static/media/cmu-serif-700-roman.cfeffe22f7b8d68454f8.woff2",
+    "static/media/cmu-serif-500-italic.woff2": "/omega/static/media/cmu-serif-500-italic.8b5fa9b98755bfcf1282.woff2",
+    "static/media/cmu-serif-700-italic.woff2": "/omega/static/media/cmu-serif-700-italic.a855a4a230d35608fa20.woff2",
+    "index.html": "/omega/index.html",
+    "main.b53f5995.css.map": "/omega/static/css/main.b53f5995.css.map",
+    "main.36ebd7cc.js.map": "/omega/static/js/main.36ebd7cc.js.map",
+    "453.e4226405.chunk.js.map": "/omega/static/js/453.e4226405.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b53f5995.css",
+    "static/js/main.36ebd7cc.js"
+  ]
+}
